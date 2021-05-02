@@ -1,4 +1,4 @@
-var connexion = require('../model/connexion')();
+var connexion = require('../service/connexion')();
 
 module.exports = {
     index: function(req, res){
